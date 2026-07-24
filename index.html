@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="LiftLog">
+<meta name="theme-color" content="#fc4c02">
+<title>LiftLog</title>
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <h1 id="topbar-title">LiftLog</h1>
+</header>
+
+<main id="app"></main>
+
+<nav class="tabbar">
+  <button class="tab-btn active" data-tab="log">
+    <span class="tab-icon">&#128170;</span><span>Log</span>
+  </button>
+  <button class="tab-btn" data-tab="history">
+    <span class="tab-icon">&#128197;</span><span>History</span>
+  </button>
+  <button class="tab-btn" data-tab="settings">
+    <span class="tab-icon">&#9881;&#65039;</span><span>Settings</span>
+  </button>
+</nav>
+
+<div id="toast" class="toast"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
